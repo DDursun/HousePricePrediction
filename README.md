@@ -5,5 +5,9 @@ I tried well-known Kaggle challange House Price Predictions. The dataset had 80+
   2) Exploratory Data Analysis
   3) Feature Selection
   4) Feature enginnering (scaling, encoding) 
-  5) Model and model parameter selection with GridSearchCV 
+  5) Pipelines
+  6) Cross-Validation
+  7) Model and model parameter selection with GridSearchCV 
+
+Model did fairly good job with the r-square score of 0.86 on initial test data and achieved RMSLE score of 0.16597 on unseen test data on competition. But still, there is huge room for improvement on both Feature engineering and statistical perspective(skewness and etc.). Considering the time limitations, I would account this project as successful (will be laughing to my mistakes in less than year I hope).
 
